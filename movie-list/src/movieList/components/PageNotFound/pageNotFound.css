@@ -1,0 +1,8 @@
+.block-not_movie {
+    font-size: 40px;
+    color: beige;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

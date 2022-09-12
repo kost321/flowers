@@ -1,0 +1,14 @@
+.MuiPaginationItem-text {
+    color: white;
+}
+
+.css-19micn4-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: rgb(229, 9, 20);
+}
+
+.container__pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}

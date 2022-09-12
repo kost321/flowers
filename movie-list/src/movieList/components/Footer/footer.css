@@ -1,0 +1,12 @@
+.container__footer {
+    height: 100px;
+    background-color: #232323;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.header__logo-footer {
+    color: rgb(229, 9, 20);
+    font-size: 34px;
+}

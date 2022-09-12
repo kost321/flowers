@@ -1,0 +1,99 @@
+.container__movie-content {
+    display: flex;
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+.header-logo {
+    height: 140px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(rgba(61, 61, 61, 0.8), rgba(0, 0, 0, 0.5)), url(../Header/media/BY-en-20220711-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+.container__current-movie {
+    margin: 0 auto;
+}
+
+.current__movie-img {
+    width: 30%;
+    opacity: 1;
+    position: relative;
+    bottom: 100px;
+}
+
+.block__movie-info {
+    display: flex;
+    width: 50%;
+    color: rgba(255, 255, 255, 0.9);
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.container__movie-info {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    flex-direction: column;
+    background-color: #0f0d0d;
+    margin: 40px;
+    border-radius: 10px;
+    justify-content: flex-start;
+}
+
+.movie-info_title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 15px;
+
+}
+
+.movie-info_rating {
+    font-size: 24px;
+    box-sizing: content-box;
+    border: solid rgb(229, 9, 20) 3px;
+    border-radius: 20px;
+}
+
+.movie-info_date {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 15px;
+
+}
+
+.movie-info_time {
+    font-size: 20px;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.movie-info_content {
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    padding: 15px;
+}
+
+.block__movie-info_content {
+    display: flex;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.9);
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.block__movie-info_genres {
+    display: flex;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.9);
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.movie-info_genres {
+    padding: 15px;
+    border: solid rgb(229, 9, 20) 3px;
+}
